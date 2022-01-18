@@ -1,10 +1,9 @@
 #!/bin/python3
-
+import os
 import epitech_calendar_parser as parser
 import calendar_craller
 import json
 import sys
-
 
 def remove_duplicate(epitech, google):
     r_list = []
